@@ -1,0 +1,29 @@
+{
+  "contract_name": "Child",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "alive",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x60606040523415600e57600080fd5b5b60798061001d6000396000f300606060405263ffffffff60e060020a600035041663753899e981146023575b600080fd5b3415602d57600080fd5b60336047565b604051901515815260200160405180910390f35b60015b905600a165627a7a72305820ff06de6d3abfdb644c8a8bbde84b18d9f02ba45e04bc31ac40777f2c87dfefc20029",
+  "networks": {
+    "1502047115896": {
+      "events": {},
+      "links": {},
+      "address": "0xcfbbd88cafee16a8e6ba57cd34e59ed718b28b50",
+      "updated_at": 1502050334801
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1502050334801
+}

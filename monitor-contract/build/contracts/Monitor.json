@@ -1,0 +1,64 @@
+{
+  "contract_name": "Monitor",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "counter",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "createChild",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "_counter",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "name": "_child",
+          "type": "address"
+        }
+      ],
+      "name": "Birth",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b600080555b5b6101d1806100256000396000f300606060405263ffffffff60e060020a60003504166361bc221a811461002f578063a3a4ba3114610054575b600080fd5b341561003a57600080fd5b610042610083565b60405190815260200160405180910390f35b341561005f57600080fd5b610067610089565b604051600160a060020a03909116815260200160405180910390f35b60005481565b6000805460010181558061009b610100565b604051809103906000f08015156100b157600080fd5b90507f490af1295132c6f5f66ce397bdc501300cc1a47834552eba3f910f0e82764aca60005482604051918252600160a060020a031660208201526040908101905180910390a18091505b5090565b60405160968061011083390190560060606040523415600e57600080fd5b5b60798061001d6000396000f300606060405263ffffffff60e060020a600035041663753899e981146023575b600080fd5b3415602d57600080fd5b60336047565b604051901515815260200160405180910390f35b60015b905600a165627a7a72305820a9c0cf6b96c2a4887eed64e508e6eec72e267a9384af8c2ea95ad912ef6d33ee0029a165627a7a72305820d2e5fa1101870d29de3743fdd92a48a9796dcead2339e34bf0dc8f4530ebd21c0029",
+  "networks": {
+    "1502047115896": {
+      "events": {},
+      "links": {},
+      "address": "0x19602aa2d70d776b0ce8e208b1683dfcb473f8e2",
+      "updated_at": 1502048133160
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1502050280876
+}
